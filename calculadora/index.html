@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora v1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="contenedor">
+        <div class="valores">
+            <input type="text" class="valor" id="val-1" >
+            <div id="operador"></div>
+            <input type="number" class="valor" id="val-2">
+            <div id="display"></div>
+        </div>
+
+        <table>
+            <tr>
+                <td colspan="3" class="" id="borrar"><div class="btn" id="AC">AC</div></td><td class="" id="division"><div class="btn">/</div></td>
+            </tr>
+            <tr>
+                <td class=" numero" id=""><div class="btn"><p>7</p></div></td>
+                <td class=" numero" id=""><div class="btn">8</div></td>
+                <td class="numero" id=""><div class="btn">9</div></td><td class="" id="multi"><div class="btn">x</div></td>
+            </tr>
+            <tr>
+                <td class=" numero" id=""><div class="btn">6</div></td>
+                <td class=" numero" id=""><div class="btn">5</div></td>
+                <td class=" numero" id=""><div class="btn">4</div></td><td class="" id="resta"><div class="btn">-</div></td>
+            </tr>
+            <tr>
+                <td class=" numero" id=""><div class="btn">3</div></td>
+                <td class=" numero" id=""><div class="btn">2</div></td>
+                <td class=" numero" id=""><div class="btn">1</div></td><td class="" id="suma"><div class="btn">+</div></td>
+            </tr>
+            <tr>
+                <td colspan="2" class=" numero" id=""><div class="btn" id="zero">0</div></td><td class=" numero" id=""><div class="btn">.</div></td><td class="" id="igual"><div class="btn">=</div></td>
+            </tr>
+        </table>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
